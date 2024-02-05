@@ -1,0 +1,71 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*MOVIL*/
+/*TABLET*/
+/*MONITOR*/
+.menu {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  color: white;
+}
+
+.img-back {
+  background-image: url(../img/descarga\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-nav li {
+  display: inline;
+  margin-right: 40px;
+  background-color: aqua;
+}
+
+.titulo {
+  color: white;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background: black;
+  width: 35%;
+  padding: 3px;
+}
+
+.fonts { /*Customizacion de parrafo*/
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.tips {
+  bottom: 0%;
+  position: relative;
+  margin-top: 543px;
+  color: aliceblue;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  text-align: left;
+}
+
+footer {
+  color: white;
+  position: relative;
+  background-color: black;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
